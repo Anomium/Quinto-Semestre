@@ -1,0 +1,7 @@
+cadena = input("Escriba una oracion: ")
+cadena = cadena.lower()
+print("A = ", cadena.count("a"))
+print("E = ", cadena.count("e"))
+print("I = ", cadena.count("i"))
+print("O = ", cadena.count("o"))
+print("U = ", cadena.count("u"))

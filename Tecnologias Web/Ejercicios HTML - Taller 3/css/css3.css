@@ -1,0 +1,7 @@
+#bordes{
+    border: solid 3px;
+    border-color: red;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    text-align: center;
+}

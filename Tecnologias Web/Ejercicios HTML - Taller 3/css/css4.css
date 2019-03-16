@@ -1,0 +1,87 @@
+#letra1 {
+    cursor: alias;
+}
+
+#letra2 {
+    cursor: auto;
+}
+
+#letra3 {
+    cursor: crosshair;
+}
+
+#letra4 {
+    cursor: default;
+}
+
+#letra5 {
+    cursor: e-resize;
+}
+
+#letra6 {
+    cursor: grab;
+}
+
+#letra7 {
+    cursor: help;
+}
+
+#letra8 {
+    cursor: move;
+}
+
+#letra9 {
+    cursor: n-resize;
+}
+
+#letra10 {
+    cursor: ne-resize;
+}
+
+#letra11 {
+    cursor: nw-resize;
+}
+
+#letra12 {
+    cursor: pointer;
+}
+
+#letra13 {
+    cursor: progress;
+}
+
+#letra14 {
+    cursor: s-resize;
+}
+
+#letra15 {
+    cursor: se-resize;
+}
+
+#letra16 {
+    cursor: sw-resize;
+}
+
+#letra17 {
+    cursor: text;
+}
+
+#letra18 {
+    cursor: w-resize;
+}
+
+#letra19 {
+    cursor: wait;
+}
+
+#letra20 {
+    cursor: not-allowed;
+}
+
+#letra21 {
+    cursor: no-drop;
+}
+
+#letra22 {
+    cursor: zoom-in;
+}

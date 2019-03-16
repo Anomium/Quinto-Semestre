@@ -1,0 +1,43 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+#p1, #p2, #p3, #p4{
+    position: absolute;
+}
+#p1{
+    border: purple solid 5px;
+    background-color: chartreuse;  
+    outline: 5px solid #9900CC;
+    top: 100px;
+    left: 200px;
+    z-index: 20;
+}
+
+#p2{
+    border: yellow solid 5px;
+    background-color: mediumturquoise;
+    outline: 5px solid #fff0CC;
+    top: 50px;
+    left: 75px;
+    z-index: 100;
+}
+
+#p3{
+    border: purple solid 5px;
+    background-color: mediumorchid;
+    outline: 5px solid #660066;
+	top: 125px;
+	left: 25px;
+    z-index: 50;
+}
+
+#p4{
+    border: fuchsia solid 5px;
+    background-color: darkturquoise;
+    outline: 5px solid #FF0099;
+    top: 200px;
+    left: 350px;
+    z-index: 80;
+}

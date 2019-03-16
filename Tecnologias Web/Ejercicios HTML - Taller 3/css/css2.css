@@ -1,0 +1,38 @@
+#b1{
+    border: dotted;
+    border-color: blue;
+}
+
+#b2{
+    border: dashed;
+    border-color: red;
+}
+
+#b3{
+    border: solid;
+    border-color: yellow;
+}
+
+#b4{
+    border: double;
+    border-color: green;
+}
+
+#b5{
+    border: groove;
+    border-color: fuchsia;
+}
+
+#b6{
+    border: ridge;
+    border-color: blanchedalmond;
+}
+
+#b7{
+    border: inset;
+    border-color: darkviolet;
+}
+
+#b8{
+    border: outset;
+}

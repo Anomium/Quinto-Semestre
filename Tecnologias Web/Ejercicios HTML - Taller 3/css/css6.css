@@ -1,0 +1,33 @@
+#estilo {
+    border: dotted;
+    background-color: rgb(216, 214, 214);
+    border-radius: 10px;
+}
+#boton{
+    border-radius: 15px;
+    background-color: aqua;
+    cursor: pointer;
+}
+body {
+    background-repeat: repeat;
+}
+
+#b1 {
+    cursor: alias;
+}
+
+#b2 {
+    cursor: cell;
+}
+
+#b3 {
+    cursor: n-resize;
+}
+
+#b4 {
+    cursor: no-drop;
+}
+
+p {
+    cursor: default;
+}
