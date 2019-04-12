@@ -1,0 +1,51 @@
+$(document).ready(function () {
+    $("#btn1").click(function () {
+        $("#header").addClass("hover");
+        $("#header").removeClass("no_hover");
+    });
+    $("#btn2").click(function () {
+        $("#header").removeClass("hover");
+        $("#header").addClass("no_hover");
+    });
+});
+
+Funcion que se ejecutara en el documento al cual haya sido enlazado
+Este codigo tomara el id ya sea btn1 o btn2 y segun sea el boton
+cambiara el estado de Class del div en la vista HTML dando
+como consecuencia el cambio de color en el borde.
+
+/////////////////////////////////////////////////////////////////////////
+
+.hover {
+    border: solid #f00 3px;
+}
+
+.no_hover {
+    border: solid #000 3px;
+}
+
+.hover y .no_hover dos funciones que seran aplicadas en el html al
+que hayan sido enlazadas, son las encargadas de dar el borde solido,
+el ancho y el color
+
+/////////////////////////////////////////////////////////////////////////
+
+<html>
+
+<head>
+    <link href="styles/my_style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header" class="no_hover">
+        <h1>Header</h1>
+    </div>
+    <button type="button" id="btn1">Click to Add</button>
+    <button type="button" id="btn2">Click to Remove</button>
+    <script src="scripts/jquery.1.6.2.js"></script>
+    <script src="scripts/my_test_scripts.js"></script>
+</body>
+
+</html>
+
+HTML en el cual se importan los scripts y el link del css

@@ -1,0 +1,10 @@
+<script>
+    $(document).ready(function () {
+        $("div").click(function () {
+            alert("You clicked me.");
+        });//end click function
+    });//end doc ready
+</script>
+
+La ejecucion de este codigo lanza una alerta
+al momento de hacer clic en un div 

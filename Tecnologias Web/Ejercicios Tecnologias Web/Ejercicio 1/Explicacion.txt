@@ -1,0 +1,18 @@
+La ejecucion de este codigo genera que las letras en la vista
+
+<script>
+    $(document).ready(function () {
+        $("#move_up").click(function () {       SE MUEVAN HACIA ARRIBA
+            $("#change_me").animate({ top: 30 }, 200);
+        });//end move_up
+        $("#move_down").click(function () {
+            $("#change_me").animate({ top: 500 }, 2000);   SE MUEVA HACIA ABAJO
+        });//end move_down
+        $("#color").click(function () {         SE CAMBIE EL COLOR DE LAS LETRAS A PÚRPURA
+            $("#change_me").css("color", "purple");
+        });//end color
+        $("#disappear").click(function () { SE DESAPAREZCAN LAS LETRAS Y UN SEGUNDO CLICK EN EL BOTON HACE QUE REAPAREZCAN
+            $("#change_me").toggle("slow");
+        });//end disappear
+    });//end doc ready
+</script>
